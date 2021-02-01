@@ -54,29 +54,5 @@ Employees can select a task and submit it for submission. Upon submission, manag
   <img alt="manager review" src="./docs/review-submission.png" width="45%" />
 </p>
 
-## Getting Started
-
-#### Firstly, clone the project
-
-`git clone https://github.com/clarchiu/scrum-ptious.git`
-
-#### Install dependencies in both the project directory and server folder
-
-`npm install`\
-`cd ./server && npm install`
-
-#### In the project directory, run to start webpack server:
-
-`npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3001](http://localhost:3001) to view it in the browser.
-
-#### In the /server directory, run to start express/socket.io server:
-
-`npm start` 
-
-Open [http://localhost:8080](http://localhost:8080) to view it in the browser.
-
 ## License
 [MIT](htps://choosealicense.com/licenses/mit/)
