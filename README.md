@@ -78,7 +78,7 @@ You will also see any lint errors in the console.
 
 #### In the /sever directory, run to start express/socket.io server:
 `npm start` 
-Open [http://localhost:8001](http://localhost:8001) to view it in the browser.
+Open [http://localhost:8001](http://localhost:8080) to view it in the browser.
 
 ## License
 [MIT](htps://choosealicense.com/licenses/mit/)
