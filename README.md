@@ -67,7 +67,7 @@ Employees can select a task and submit it for submission. Upon submission, manag
 
 #### In the /server directory create a file named `.env` 
 
-Copy the contents from `.env.example` and enter your own database credentials
+Copy the contents from `.env.example` and insert your own database credentials
 
 ```
 PGHOST=
