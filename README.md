@@ -38,7 +38,7 @@ Users can communicate with their team via a built-in chat feature
 
 ### Submissions
 
-Employees can select a task and submit it for submission. Upon submission, managers can either accept or reject it.
+Employees can select a task and submit it for submission. Upon submission, managers can either accept or reject it, as well as give feedback
 
 <p float="left">
   <img alt="employee submission" src="./docs/employee-submission.png" width="45%" />
