@@ -65,7 +65,7 @@ Employees can select a task and submit it for submission. Upon submission, manag
 `npm install`\
 `cd ./server && npm install`
 
-#### In the /server directory create a file named `.env`. Copy the contents from `.env.example` and enter your own database credentials
+#### In the /server directory create a file named `.env` Copy the contents from `.env.example` and enter your own database credentials
 
 ```
 PGHOST=
@@ -83,7 +83,7 @@ PGPORT=
 
 `npm start`
 
-Runs the app in the development mode.\
+Runs the app in development mode.\
 Open [http://localhost:3001](http://localhost:3001) to view it in the browser.
 
 #### In the /server directory, run to start express/socket.io server:
