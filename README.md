@@ -6,6 +6,15 @@ Socket.io is hooked into the Express server so that all data is pushed to client
 
 Developed for demonstration purposes for the final project of Lighthouse Labs Web Development Bootcamp
 
+## Tech Stack
+* PostgresSql
+* Express
+* React.js
+* Node.js
+* Socket.io
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
 ## Overview
 
 ### Dashboard
@@ -44,16 +53,6 @@ Employees can select a task and submit it for submission. Upon submission, manag
   <img alt="employee submission" src="./docs/employee-submission.png" width="45%" />
   <img alt="manager review" src="./docs/review-submission.png" width="45%" />
 </p>
- 
-
-## Tech Stack
-* PostgresSql
-* Express
-* React.js
-* Node.js
-* Socket.io
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Getting Started
 
