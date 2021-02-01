@@ -5,6 +5,15 @@ A workflow dashboard that maximizes your team's efficiency by allowing assignmen
 Socket.io is hooked into the Express server so that all data is pushed to clients in real time. Users are then immediately notified of these changes.
 
 Developed for demonstrations purposes for the Final Project of Lighthouse Labs Web Development Bootcamp
+ 
+## Tech Stack
+* PostgresSql
+* Express
+* React.js
+* Node.js
+* Socket.io
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Overview
 
@@ -44,16 +53,6 @@ Employees can select a task and submit it for submission. Upon submission, manag
   <img alt="employee submission" src="./docs/employee-submission.png" width="45%" />
   <img alt="manager review" src="./docs/review-submission.png" width="45%" />
 </p>
- 
-
-## Tech Stack
-* PostgresSql
-* Express
-* React.js
-* Node.js
-* Socket.io
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Getting Started
 
@@ -73,10 +72,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 Runs the app in the development mode.\
 Open [http://localhost:3001](http://localhost:3001) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-#### In the /sever directory, run to start express/socket.io server:
+#### In the /server directory, run to start express/socket.io server:
 
 `npm start` 
 
