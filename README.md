@@ -76,7 +76,7 @@ PGDATABASE=
 PGPASSWORD=
 PGPORT=
 ```
-Then still in the /server directory run to initialize database with mock data:
+#### Still in the /server directory, run to initialize database with mock data:
 
 `npm run reset-db`
 
