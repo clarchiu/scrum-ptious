@@ -65,7 +65,9 @@ Employees can select a task and submit it for submission. Upon submission, manag
 `npm install`\
 `cd ./server && npm install`
 
-#### In the /server directory create a `.env` file and follow the example in `.env.example` and enter your own database credentials, then still in the /server directory run to initialize database with mock data:
+#### In the /server directory create a file named `.env`
+#### Follow the example in `.env.example` and enter your own database credentials
+#### Then still in the /server directory run to initialize database with mock data:
 
 `npm run reset-db`
 
