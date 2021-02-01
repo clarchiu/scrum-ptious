@@ -54,5 +54,33 @@ Employees can select a task and submit it for submission. Upon submission, manag
   <img alt="manager review" src="./docs/review-submission.png" width="45%" />
 </p>
 
+## Getting Started
+
+#### Firstly, clone the project
+
+`git clone https://github.com/clarchiu/scrum-ptious.git`
+
+#### Install dependencies in both the project directory and server directory
+
+`npm install`\
+`cd ./server && npm install`
+
+#### In the /server directory create a `.env` file and follow the example in `.env.example` and enter your own database credentials, then still in the /server directory run to initialize database with mock data:
+
+`npm run reset-db`
+
+#### In the project directory, run to start webpack server:
+
+`npm start`
+
+Runs the app in the development mode.\
+Open [http://localhost:3001](http://localhost:3001) to view it in the browser.
+
+#### In the /server directory, run to start express/socket.io server:
+
+`npm start` 
+
+Open [http://localhost:8001](http://localhost:8001) to view it in the browser.
+
 ## License
 [MIT](htps://choosealicense.com/licenses/mit/)
