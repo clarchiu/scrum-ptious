@@ -77,7 +77,9 @@ The page will reload if you make edits.\
 You will also see any lint errors in the console.
 
 #### In the /server directory, run to start express/socket.io server:
+
 `npm start` 
+
 Open [http://localhost:8080](http://localhost:8080) to view it in the browser.
 
 ## License
