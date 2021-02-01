@@ -90,7 +90,7 @@ Open [http://localhost:3001](http://localhost:3001) to view it in the browser.
 
 `npm start` 
 
-Open [http://localhost:8001](http://localhost:8001) to view it in the browser.
+Open [http://localhost:8080](http://localhost:8080) to view it in the browser.
 
 ## License
 [MIT](htps://choosealicense.com/licenses/mit/)
