@@ -4,8 +4,8 @@ A workflow dashboard that maximizes your team's efficiency by allowing assignmen
 
 Socket.io is hooked into the Express server so that all data is pushed to clients in real time. Users are then immediately notified of these changes.
 
-Developed for demonstrations purposes for the Final Project of Lighthouse Labs Web Development Bootcamp
- 
+Developed for demonstration purposes for the final project of Lighthouse Labs Web Development Bootcamp
+
 ## Tech Stack
 * PostgresSql
 * Express
@@ -47,7 +47,7 @@ Users can communicate with their team via a built-in chat feature
 
 ### Submissions
 
-Employees can select a task and submit it for submission. Upon submission, managers can either accept or reject it.
+Employees can select a task and submit it for submission. Upon submission, managers can either accept or reject it, as well as give feedback
 
 <p float="left">
   <img alt="employee submission" src="./docs/employee-submission.png" width="45%" />
@@ -60,10 +60,14 @@ Employees can select a task and submit it for submission. Upon submission, manag
 
 `git clone https://github.com/clarchiu/scrum-ptious.git`
 
-#### Install dependencies in both the project directory and server folder
+#### Install dependencies in both the project directory and server directory
 
 `npm install`\
 `cd ./server && npm install`
+
+#### In the /server directory create a `.env` file and follow the example in `.env.example` and enter your own database credentials, then still in the /server directory run to initialize database with mock data:
+
+`npm run reset-db`
 
 #### In the project directory, run to start webpack server:
 
