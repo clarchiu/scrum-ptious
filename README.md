@@ -1,5 +1,7 @@
 # Scrum-ptious
 
+**Check it out here:** [demo hosted on heroku](https://scrum-ptious-lhl.herokuapp.com/)
+
 A workflow dashboard that maximizes your team's efficiency by allowing assignment and tracking of tasks, as well as communications between teammates via chat. 
 
 Socket.io is hooked into the Express server so that all data is pushed to clients in real time. Users are then immediately notified of these changes.
