@@ -34,6 +34,7 @@ export default function Login(props) {
             </span>
           </div>
         </ul>
+        <div className="disclaimer">This web application was developed for demonstration purposes for the final project of Lighthouse Labs Web Development Bootcamp</div>
     </div>
   )
 }

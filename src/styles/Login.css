@@ -1,3 +1,7 @@
+.disclaimer {
+  width: 50%;
+}
+
 .login-container {
   background: linear-gradient(to left, hsl(241, 96%, 56%), hsl(266, 100%, 57%));
 	width: 100%;
