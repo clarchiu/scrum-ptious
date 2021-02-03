@@ -1,1 +1,1 @@
-web: npm run reset-db && npn run start
+web: node ./src/db/reset-db.js && node ./src/index.js
