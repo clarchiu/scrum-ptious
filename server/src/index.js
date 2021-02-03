@@ -33,30 +33,23 @@ db.connect(err => {
   }
 });
 
+if (process.env.NODE_ENV === "production") {
+  const publicPath = path.join(__dirname, '..', 'build');
+
+  app.use(express.static(publicPath));
+  
+  app.get('*', (req, res) => {
+    res.sendFile(path.join(publicPath, 'index.html'));
+  });
+}
+
 app.use(bodyParser.json());
 app.use(cors());
 app.use(bodyParser.urlencoded({ extended: true }));
 
-// const publicPath = path.join(__dirname, '..', 'public');
-
-// app.use(express.static(publicPath));
-
-// app.get('*', (req, res) => {
-//   res.sendFile(path.join(publicPath, 'index.html'));
-// });
-
-// // if (process.env.NODE_ENV === "production") {
-// //   app.use(express.static("build"));
-// //   app.get("*", (req, res) => {
-// //     res.sendFile(path.resolve(__dirname,  "build", "index.html"));
-// //   });
-// // }
-
 app.use("/api", messageRoutes(db));
 app.use("/api", employeeRoutes(db));
 app.use("/api", submissionRoutes(db));
-
-// Tasks route
 app.use("/api", taskRoutes(db));
 
 // test for getting login data 
