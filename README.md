@@ -1,6 +1,6 @@
 # Scrum-ptious
 
-**Check it out here:** [demo hosted on heroku](https://scrum-ptious-lhl.herokuapp.com/)
+**Check it out here: (view on desktop)** [demo hosted on heroku](https://scrum-ptious-lhl.herokuapp.com/)
 
 A workflow dashboard that maximizes your team's efficiency by allowing assignment and tracking of tasks, as well as communications between teammates via chat. 
 
